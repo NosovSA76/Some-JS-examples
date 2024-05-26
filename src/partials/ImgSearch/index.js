@@ -3,10 +3,10 @@ import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import debounce from 'lodash.debounce';
 import SimpleLightbox from "simplelightbox";
 import "simplelightbox/dist/simple-lightbox.min.css";
-import FotoService from './js/fetchFoto';
-import { refs } from './js/refs.js'
-import { murkupGallery } from './js/markupGallery';
-import { notifyInit } from './js/notifyInit';
+import FotoService from '../../js/ImgSearch/fetchFoto.js';
+import { refs } from '../../js/ImgSearch/refs.js'
+import { murkupGallery } from '../../js/ImgSearch/markupGallery.js';
+import { notifyInit } from '../../js/ImgSearch/notifyInit.js';
 
 
 var lightbox = new SimpleLightbox('.gallery a', { captionsData: 'alt', captionDelay: 250 });
